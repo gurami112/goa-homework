@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    background-repeat: no-repeat;
+ 
+}
+
+
+
+.grid-container{
+   
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(1,400px);
+    grid-template-columns: repeat(1, 300px);
+    position: relative;
+
+
+
+    animation-name: gridcontainer;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gridcontainer{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.grid-item1{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -51px;
+    bottom: 140px;
+    height: 350px;
+    
+
+    
+}
+
+.grid-item1:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    bottom: 600px;
+    width: 90px;
+    height: 90px;
+    right: 850px;
+
+    border-radius: 10px;
+
+    animation-duration: 5s;
+    animation-name: logo;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes logo{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.background-gif{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+
+    width: 100%;
+
+  
+    animation-delay: 0.5s;
+    animation-name: bf;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+}
+
+@keyframes bf{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+

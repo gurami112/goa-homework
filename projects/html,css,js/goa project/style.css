@@ -1,0 +1,989 @@
+
+
+
+
+*{
+    padding: 0px; 
+    box-sizing: border-box;
+    margin: 0px
+     
+}
+
+
+
+.header{
+    height: 400px;
+   
+    position: relative;
+    padding: 100px;
+    background: rgb(178,72,191);
+    background: radial-gradient(circle, rgba(178,72,191,1) 0%, rgba(0,255,255,1) 100%);
+    opacity: o;
+    animation-delay: 0,5s;
+    animation-name: header;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+@keyframes header{
+
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+
+
+
+}
+
+
+body{
+    
+    overflow-x: hidden;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(0, 0, 0);
+
+    height: 100vh;
+}
+    
+
+
+
+
+    
+
+   
+
+
+
+.title{
+    color: rgb(223, 255, 205);
+    letter-spacing: 2px;
+    font-size: 45px;
+    position: relative;
+    right: 100px;
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+   
+    
+
+    animation-duration: 5s;
+    animation-name: title;
+    animation-delay: 0,5s;
+    animation-fill-mode: forwards;
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes title{
+    0%{
+        opacity: 0;
+        transform: translatex(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translatex(150px);
+    }
+
+}
+
+
+.slogan{
+
+    color: rgb(184, 219, 174);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+    padding: 10px;
+    font-size: 30px;
+    top: 20px;
+    display: inline-block;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    animation-duration: 5s;
+    animation-name: slogan;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes slogan{
+    0%{
+        opacity: 0;
+        transform: translatex(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translatex(100px);
+    }
+
+}
+
+
+.logo{
+    display: inline;
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid chartreuse;
+
+    border-radius: 60px;
+
+    animation-duration: 5s;
+    animation-name: logo;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.home{
+   font-size: 25px;
+   color: white;
+   position: relative;
+   display: inline-block;
+   bottom: 360px;
+   left: 800px;
+   letter-spacing: 2px;
+   transition-duration: 1s;
+   cursor: pointer;
+   text-decoration: none;
+
+   animation-duration: 5s;
+   animation-name: home;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes home{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+
+
+
+.home:hover{
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+    
+}
+
+
+.contact{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 360px;
+    left: 900px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+    animation-duration: 5s;
+    animation-name: contact;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes contact{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.contact:hover{
+    
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+.aboutus{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 360px;
+    left: 1000px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    animation-duration: 5s;
+    animation-name: aboutus;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes aboutus{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.aboutus:hover{
+    
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+.courses{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 360px;
+    left: 1100px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    animation-duration: 5s;
+    animation-name: courses;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes courses {
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.courses:hover{
+
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+.galery{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 360px;
+    left: 1200px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    animation-duration: 5s;
+    animation-name: galery;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes galery {
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.galery:hover{
+
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+.payment{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 360px;
+    left: 1300px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    animation-duration: 5s;
+    animation-name: payment;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes payment {
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.payment:hover{
+
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+iframe{
+    display: inline;
+    position: relative;
+    top: 760px;
+    left: 1150px;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid chartreuse;
+     
+    animation-duration: 5s;
+    animation-name: iframe;
+   
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes iframe {
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(-700px);
+    }
+    
+}
+
+
+
+
+
+
+.videotxt{
+    
+    display: inline-block;
+    color: rgb(144, 229, 255);
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    right: 1000px;
+    top: -140px;
+ 
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 0;
+    
+
+
+    animation-duration: 3s;
+    animation-name: videotxt;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes videotxt {
+    0%{
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(140px);
+ 
+    }
+    
+}
+
+footer{
+
+    background: rgb(13,13,13);
+    background: linear-gradient(0deg, rgba(13,13,13,1) 28%, rgba(128,128,128,1) 96%);
+    position: relative;
+    height: 400px;
+    top: 800px;
+    animation-name: footer;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes footer {
+    0%{
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 1;
+ 
+    }
+    
+}
+
+.ftlogo{
+    
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    top: 15px;
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+
+    border: 2px solid chartreuse;
+
+    
+
+
+    animation-duration: 5s;
+    animation-name: ftlogo;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+@keyframes ftlogo {
+    0%{
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 1;
+ 
+    }
+    
+}
+.telen{
+    color: rgba(255, 255, 255, 0.637);
+    letter-spacing: 2px;
+   
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 60px;
+    display: inline-block;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.telelog{
+    display: inline-block;
+    position: relative;
+    right: 310px;
+    top: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    transform: 1s;
+  
+}
+
+
+
+
+
+.ftemail{
+    color: rgba(255, 255, 255, 0.637);
+    letter-spacing: 2px;
+   
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 140px;
+    display: inline-block;
+    right: 310px;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.emaailog{
+    display: inline-block;
+    position: relative;
+    right: 690px;
+    top: 160px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.company{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+   
+    position: relative;
+ 
+
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.fthome{
+    color: rgba(255, 255, 255, 0.637);
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    right: 110px;
+    transition: 1s;
+    text-decoration: none;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+
+.fthome:hover{
+    color: rgb(255, 177, 61);
+}
+
+
+.ftaboutus{
+    color: rgba(255, 255, 255, 0.637);
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 90px;
+    display: inline-block;
+    right: 189px;
+    transition: 1s;
+    text-decoration: none;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.ftaboutus:hover{
+    color: rgb(255, 177, 61);
+}
+
+
+.ftcontact{
+    color: rgba(255, 255, 255, 0.637);
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 160px;
+    display: inline-block;
+    right: 284px;
+    transition: 1s;
+    text-decoration: none;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.ftcontact:hover{
+    color: rgb(255, 177, 61);
+}
+
+
+.libks{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+   
+    position: relative;
+ 
+
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lihome{
+    color: rgba(255, 255, 255, 0.637);
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    right: 70px;
+    transition: 1s;
+    text-decoration: none;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.lihome:hover{
+    color: rgb(255, 177, 61);
+}
+
+.licontacts{
+    color: rgba(255, 255, 255, 0.637);
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 95px;
+    display: inline-block;
+    right: 140px;
+    transition: 1s;
+    text-decoration: none;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.licontacts:hover{
+    color: rgb(255, 177, 61);
+}
+
+.licourse{
+    color: rgba(255, 255, 255, 0.637);
+    position: relative;
+ 
+
+    font-size: 25px;
+    position: relative;
+    top: 160px;
+    display: inline-block;
+    right: 225px;
+    transition: 1s;
+    text-decoration: none;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.licourse:hover{
+    color: rgb(255, 177, 61);
+}
+
+
+.lislogan{
+    color: rgba(255, 255, 255, 0.637);
+    letter-spacing: 2px;
+    position: relative;
+   
+    left: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    
+    font-family: "Montserra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.background-gif{
+    display: inline;
+    position: absolute;
+    top: 305px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+
+    max-width: 3459px;
+    height: 2000px;
+
+    animation-delay: 0.5s;
+    animation-name: bf;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bf{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.comunityimg{
+    display: inline-block;
+    position: relative;
+    left: 1149px;
+    top: 600px;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid chartreuse;
+    opacity: 0;
+
+    animation-name: cimg;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cimg{
+    0%{
+        opacity: 0;
+        transform: translate(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translatey(-190px);
+    }
+}
+
+
+.imgtxt{
+    display: inline-block;
+    color: rgb(144, 229, 255);
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+    right: 1000px;
+    top: 230px;
+
+
+    opacity: 0;
+    animation-name: imgtx;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+ 
+  
+}
+
+@keyframes imgtx{
+    0%{
+        opacity: 0;
+        
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(150px);
+        
+    }
+}
+
+
+.status{
+    display: inline-block;
+    color: rgb(0, 81, 92);
+    font-size: 20px;
+    position: absolute;
+    bottom: 240px;
+    left: 68px;
+    opacity: 0;
+
+    animation-name: stonl;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.online{
+    color: chartreuse;
+    position: relative;
+    top: 40px;
+    left: -63px;
+    padding: 5px;
+    cursor: pointer;
+
+    border: 5px solid rgb(80, 226, 22);
+    border-radius: 30px;
+    
+
+    animation-name: stonl;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes stonl{
+
+   0%{
+    opacity: 0;
+}
+
+   100%{
+    opacity: 1;
+}
+
+}
+
+
+
+
+.search{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0,255,255);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    position: relative ;
+    bottom: 260px;
+    height:40px;
+    left: 100px;
+    opacity: 0;
+
+    color: rgb(0,255,255);
+
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+
+    animation: srch;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes srch{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

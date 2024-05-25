@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+
+
+.grid-container{
+   
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2,400px);
+    grid-template-columns: repeat(2, 300px);
+    position: relative;
+
+
+
+    animation-name: gridcontainer;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gridcontainer{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.grid-item1{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+    padding-top: 140px;
+    padding-left: 60px;
+    height: 350px;
+    
+
+    
+}
+
+.grid-item1:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+}
+
+.grid-item2{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+    padding-top: 140px;
+    padding-left: 80px;
+    height: 350px;
+    
+
+    
+}
+
+.grid-item2:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    bottom: 600px;
+    width: 90px;
+    height: 90px;
+    right: 700px;
+
+    border-radius: 10px;
+
+    animation-duration: 5s;
+    animation-name: logo;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes logo{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.background-gif{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+
+    width: 100%;
+
+  
+    animation-delay: 0.5s;
+    animation-name: bf;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+}
+
+@keyframes bf{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+    

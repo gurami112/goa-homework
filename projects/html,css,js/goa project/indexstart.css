@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    background-color: #151515;
+
+    overflow: hidden;
+}
+
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 13px solid #fe444425;
+    border-top: 15px solid rgb(255, 251, 0);
+    animation: ani 3s infinite;
+    animation-fill-mode: forwards;
+
+
+    position: relative;
+    left: 850px;
+    top: 200px;
+
+   
+}
+
+
+.circle2{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 15px solid #fee84422;
+    border-top: 15px solid #ff0000 ;
+    animation: ani 2s infinite;
+    animation-fill-mode: forwards;
+
+
+   
+}
+
+
+@keyframes ani{
+    0%{
+         
+         transform: rotate(0deg);
+    }
+
+
+    100%{
+       
+        transform: rotate(360deg);
+    }
+}
+
+
+h1{
+    color: green;
+    font-size: 40px;
+    position: relative;
+    left: 570px;
+    top: 300px;
+    display: inline-block;
+    opacity: 0;
+
+    font-size: 80px;
+
+
+    animation-name: h;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+   
+}
+
+@keyframes h{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 255, 0);
+    position: relative;
+    left: -200px;
+    top: 410px;
+    font-size: 35px;
+    border: 0px solid black ;
+    opacity: 0;
+
+    font-size: 80px;
+
+
+    animation-name: a;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+ 
+}
+
+@keyframes a{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+img{
+    
+    display: inline-block;
+    position: relative;
+    left: -290px;
+    top: 510px;
+    font-size: 35px;
+    transition: 1s;
+    width: 110px;
+
+
+    opacity: 0;
+
+
+    animation-name: a;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    opacity: 0;
+}
+
+audio{
+    opacity: 0;
+}
+
+.background-gif{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+
+    width: 100%;
+
+   
+    animation-name: b;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    opacity: 0;
+
+}
+
+@keyframes b{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+

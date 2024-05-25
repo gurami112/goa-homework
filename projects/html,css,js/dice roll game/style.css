@@ -1,0 +1,74 @@
+/* reset syte */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* style body */
+
+body{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* wrapper */
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* style h1 */
+
+h1{
+    margin: 20px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+/* style dice-roll */
+
+.dice-area{
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* style p*/
+
+p{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+/* style img */
+
+img{
+    width: 300px;
+}
+
+/* style roll-dice */
+
+#roll-dice{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    color: black;
+    font-size: 40px;
+    border: none;
+    -webkit-box-shadow:0px 0px 62px 12px rgba(45,255,196,1);
+    -moz-box-shadow: 0px 0px 62px 12px rgba(45,255,196,1);
+    box-shadow: 0px 0px 62px 22px rgba(45,255,196,1);
+    transition: 0.5s;
+    position: relative;
+    top: 50px;
+    left: 790px;
+}
+
+#roll-dice:active{
+    transform: scale(0.9);
+}

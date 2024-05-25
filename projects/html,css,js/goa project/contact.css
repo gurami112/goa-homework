@@ -1,0 +1,831 @@
+*{
+    padding: 0px; 
+    box-sizing: border-box;
+    margin: 0px
+     
+}
+
+
+
+
+
+.header{
+    height: 350px;
+   
+    position: relative;
+    padding: 100px;
+    opacity: o;
+    background: rgb(178,72,191);
+    background: radial-gradient(circle, rgba(178,72,191,1) 0%, rgba(0,255,255,1) 100%);
+    animation-delay: 0,5s;
+    animation-name: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    font-family: "Montserra", sans-serif;;
+    
+
+
+}
+
+
+
+@keyframes header{
+
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+
+
+    
+ 
+
+
+
+}
+
+
+
+
+.logo{
+    display: inline;
+    position: relative;
+    bottom: 200px;
+    width: 90px;
+    height: 90px;
+    left: -45px;
+
+    border-radius: 60px;
+
+    animation-duration: 5s;
+    animation-name: logo;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+    border: 2px solid chartreuse;
+}
+
+@keyframes logo{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+
+.titleone{
+    color: rgb(223, 255, 205);
+    letter-spacing: 2px;
+    font-size: 45px;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+   
+    
+
+    animation-duration: 5s;
+    animation-name: title;
+    animation-delay: 0,5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes title{
+    0%{
+        opacity: 0;
+        transform: translatex(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translatex(190px);
+    }
+
+}
+
+.slogan{
+    color: rgb(184, 219, 174);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    animation-duration: 5s;
+    animation-name: slogan;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slogan{
+    0%{
+        opacity: 0;
+        transform: translatex(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translatex(100px);
+    }
+
+}
+
+.home{
+   font-size: 25px;
+   color: white;
+   position: relative;
+   display: inline-block;
+   bottom: 370px;
+   left: 800px;
+   letter-spacing: 2px;
+   transition-duration: 1s;
+   cursor: pointer;
+   text-decoration: none;
+
+   animation-duration: 5s;
+   animation-name: home;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+
+
+   font-family: "Protest Strike", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@keyframes home{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.home:hover{
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+    
+}
+
+
+.contact{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 370px;
+    left: 900px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+    animation-duration: 5s;
+    animation-name: contact;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes contact{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.contact:hover{
+    
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+.aboutus{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 370px;
+    left: 1000px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+    animation-duration: 5s;
+    animation-name: aboutus;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes aboutus{
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.aboutus:hover{
+    
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+.courses{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
+    bottom: 370px;
+    left: 1100px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+    animation-duration: 5s;
+    animation-name: courses;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes courses {
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+
+.galery{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 370px;
+    left: 1200px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    animation-duration: 5s;
+    animation-name: galery;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes galery {
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.galery:hover{
+
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+.courses:hover{
+
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+.payment{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    bottom: 370px;
+    left: 1300px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    animation-duration: 5s;
+    animation-name: payment;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+
+}
+
+
+@keyframes payment {
+    0%{
+        opacity: 0;
+        transform: translatey(0px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(130px);
+    }
+    
+}
+
+.payment:hover{
+
+    color: rgb(242, 255, 216);
+    text-transform: capitalize;
+}
+
+
+
+ 
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.contactcontainer{
+    width: 500px;
+    height: 635px;
+    background-color: black;
+    border: 5px solid rgb(0,255,255);
+    position: relative;
+    left: 800px;
+    top: 500px ;
+    opacity: 0;
+    
+
+    animation-name: container;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes container{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(-460px);
+    }
+}
+
+
+.lo{
+    color:rgb(130, 28, 199);
+    display: inline-block;
+    text-decoration: underline;
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 3px;
+    left: 50px;
+    top: 50px;
+}
+
+
+.gin{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 3px;
+    left: 50px;
+    top: 50px;
+}
+
+
+#text{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 80px;
+    width: 380px;
+
+
+    height: 45px;
+
+    padding-left: 20px;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px solid rgb(130, 28, 199);
+
+    font-size: 15px;
+}
+
+
+#email{
+    display: inline-block;
+    position: relative;
+    left: 46px;
+    top: 130px;
+    width: 380px;
+
+    height: 45px;
+
+    padding-left: 20px;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px solid rgb(130, 28, 199);
+
+    font-size: 15px;
+}
+
+
+.login{
+    position: relative;
+    display: inline-block;
+    top: 170px;
+    left: 40px;
+    height: 50px;
+    width: 400px;
+   
+
+    background-color: rgb(4, 255, 255);
+
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+
+    font-size: 40px;
+    color: white;
+
+}
+
+.loginl{
+    color: white;
+    text-decoration: none;
+}
+
+
+@keyframes ani{
+     0%{
+        background-color: blueviolet;
+     }x
+
+     10%{
+        background-color: rgb(49, 226, 43);
+     }
+
+
+     20%{
+        background-color: rgb(226, 125, 43);
+     }
+
+     30%{
+        background-color: rgb(226, 43, 134);
+     }
+
+     40%{
+        background-color: rgb(198, 226, 43);
+     }
+
+     50%{
+        background-color: rgb(197, 146, 245);
+     }
+
+     60%{
+        background-color: rgb(43, 61, 226);
+     }
+
+     70%{
+        background-color: rgb(0, 255, 170);
+     }
+
+     
+     80%{
+        background-color: rgb(119, 16, 16);
+     }
+
+     
+     90%{
+        background-color: rgb(255, 0, 191);
+     }
+
+     
+     100%{
+        background-color: rgb(25, 0, 255);
+     }
+}
+
+.signsocial{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    letter-spacing: 2px;
+    left: 120px;
+    top: 200px;
+}
+
+.fbb{
+    position: relative;
+    display: inline-block;
+    top: 220px;
+    left: 40px;
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+
+    background-color: rgb(3, 78, 163);
+
+
+
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+
+    font-size: 10px;
+
+}
+
+
+.fb{
+    width: 50px;
+    height: 50px;
+    margin-right: 70%;
+    padding: 5px;
+
+ 
+    
+}
+
+.fbtxt{
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+    font-size: 25px;
+
+    color: white;
+}
+
+
+.googleb{
+    position: relative;
+    display: inline-block;
+    top: 250px;
+    left: 40px;
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+
+    background-color: rgb(171, 198, 233);
+
+
+
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+
+    font-size: 10px;
+}
+
+.googletxt{
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+    font-size: 25px;
+
+    color: white;
+
+}
+
+.google{
+    width: 50px;
+    height: 50px;
+    margin-right: 70%;
+    padding: 5px;
+}
+
+.remember{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    letter-spacing: 2px;
+    left: 60px;
+    top: 270px;
+
+    font-size: 25px;
+
+}
+
+.sign{
+    color: rgb(132, 0, 255);
+    display: inline-block;
+    position: relative;
+    letter-spacing: 2px;
+    left: 70px;
+    top: 270px;
+    cursor: pointer;
+    text-decoration: none;
+
+    font-size: 25px;
+}
+
+
+
+.status{
+    display: inline-block;
+    color: rgb(0, 81, 92);
+    font-size: 20px;
+    position: absolute;
+    bottom: 200px;
+    left: 68px;
+    opacity: 0;
+
+    animation-name: stonl;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.online{
+    color: chartreuse;
+    position: relative;
+    top: 40px;
+    left: -65px;
+    padding: 5px;
+    cursor: pointer;
+
+    border: 5px solid rgb(80, 226, 22);
+    border-radius: 30px;
+    
+
+    animation-name: stonl;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes stonl{
+
+   0%{
+    opacity: 0;
+}
+
+   100%{
+    opacity: 1;
+}
+
+}
+
+
+
+.search{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0,255,255);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    position: relative ;
+    bottom: 265px;
+    height:40px;
+    left: 100px;
+    opacity: 0;
+
+    color: rgb(0,255,255);
+
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+    
+    animation: srch;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes srch{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+.background-gif{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+
+    width: 100%;
+
+  
+    animation-delay: 0.5s;
+    animation-name: bf;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+}
+
+@keyframes bf{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
