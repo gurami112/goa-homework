@@ -57,6 +57,7 @@ body{
     border: none;
     position: relative;
     top: -80px;
+    left: -50px;
 }
 
 #minus{
@@ -67,6 +68,7 @@ body{
     border: none;
     position: relative;
     top: -80px;
+    left: -50px;
 }
 
 #reset{
@@ -77,4 +79,16 @@ body{
     border: none;
     position: relative;
     top: -80px;
+    left: -50px;
+}
+
+
+/* style counter */
+
+#counter{
+    color: white;
+    font-size: 130px;
+    position: relative;
+    top: -180px;
+    left: 150px;
 }
