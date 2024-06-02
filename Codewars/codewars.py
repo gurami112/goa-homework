@@ -1,4 +1,4 @@
-# Cat years, Dog years
+    # Cat years, Dog years
 
 # def human_years_cat_years_dog_years(human_years):
 #     listn = []
@@ -19,7 +19,7 @@
 #     return listn
 
 
-# Find Nearest square number
+    # Find Nearest square number
 
 # def nearest_sq(n):
 #     lower = int(n**0.5)
@@ -34,7 +34,7 @@
 
 
 
-# Sum of array singles
+    # Sum of array singles
 
 # def repeats(arr):
 #     listn = []
@@ -45,7 +45,7 @@
 
 
 
-# Triangular Treasure
+   # Triangular Treasure
 
 # def triangular(n):
 #     if n < 0:
@@ -55,7 +55,7 @@
 
 
 
-# Find the Mine!
+   # Find the Mine!
 
 # def mine_location(field):
 #     for i in range(len(field)):
@@ -64,7 +64,7 @@
 #                 return [i,x]
     
 
-# The Hashtag Generator
+   # The Hashtag Generator
 
 # def generate_hashtag(s):
 #     if not s:
@@ -79,7 +79,7 @@
 
 
 
-# So Many Permutations!
+    # So Many Permutations!
 
 # def permutations(s):
 #     if len(s) == 1:

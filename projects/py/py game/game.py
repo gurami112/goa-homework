@@ -89,7 +89,7 @@
 #             elif event.key == pygame.K_LEFT:
 #                 snake.ydir = 0
 #                 snake.xdir = -1
-
+                    
 #     snake.update()
     
 #     screen.fill('black')
@@ -112,6 +112,3 @@
 
 #     pygame.display.update()
 #     clock.tick(5)
-
-
-

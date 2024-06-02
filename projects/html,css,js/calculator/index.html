@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basic Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="main">
-        <input id="display" readonly>
-    
-        <div id="keys">
-            <button onclick="clearDisplay()" class="red">C</button>
-            <button onclick="appendDisplay('.')" class="grey">.</button>
-            <button onclick="appendDisplay('0')" class="grey">0</button>
-            <button onclick="appendDisplay('+')" class="orange">+</button>
-            <button onclick="appendDisplay('7')">7</button>
-            <button onclick="appendDisplay('8')">8</button>
-            <button onclick="appendDisplay('9')">9</button>
-            <button onclick="appendDisplay('-')" class="orange">-</button>
-            <button onclick="appendDisplay('4')">4</button>
-            <button onclick="appendDisplay('5')">5</button>
-            <button onclick="appendDisplay('6')">6</button>
-            <button onclick="appendDisplay('/')" class="orange">/</button>
-            <button onclick="appendDisplay('1')">1</button>
-            <button onclick="appendDisplay('2')">2</button>
-            <button onclick="appendDisplay('3')">3</button>
-            <button onclick="appendDisplay('*')" class="orange">*</button>
-            <button onclick="calculate()" class="orange">=</button>
+    <div class="calculator">
+        <input type="text" id="result" readonly>
+        <div class="buttons">
+            <button class="clear">C</button>
+            <button class="operator">/</button>
+            <button class="operator">*</button>
+            <button class="operator">-</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">+</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="equals">=</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="number">0</button>
+            <button class="decimal">.</button>
         </div>
     </div>
-
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
