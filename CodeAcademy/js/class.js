@@ -1,4 +1,4 @@
-        // Introduction to Classes
+//         Introduction to Classes
 
 // let halley = {
 //   _name: 'Halley',
@@ -18,18 +18,22 @@
 // }
 
 
-        // Constructor
+//         Constructor
 
 
-// class Surgeon {
-//   constructor(name, department) {
-//     this.name = name;
-//     this.department = department;
-//   }
-// }
+class Surgeon {
+  constructor(name, department) {
+    this.name = name;
+    this.department = department;
+  }
+}
 
 
-        // Instance
+
+
+
+
+//         Instance
 
 
 // class Surgeon {
@@ -45,7 +49,7 @@
 
 
 
-        // Methods
+//         Methods
 
 
 // class Surgeon {
@@ -81,7 +85,7 @@
 
 
 
-        // Method Calls
+//         Method Calls
 
 
 
@@ -118,7 +122,7 @@
 
 
 
-        // Inheritance II
+//         Inheritance II
 
 
 
@@ -144,7 +148,7 @@
 
 
 
-        // Inheritance III
+//         Inheritance III
 
 
 
@@ -174,14 +178,14 @@
 //   }
 // }
 
-  // Move this line outside of the Nurse class
+//   Move this line outside of the Nurse class
 // const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics']);
 
 
 
 
 
-        // Inheritance IV
+//         Inheritance IV
 
 
 
@@ -219,7 +223,7 @@
 
 
 
-        // Inheritance V
+//         Inheritance V
 
 
 // class HospitalEmployee {
@@ -268,7 +272,7 @@
 
 
 
-        // Static Methods
+//         Static Methods
 
 
 
@@ -320,7 +324,10 @@
 
 
 
-        // School Catalogue
+
+//         School Catalogue
+
+
 
         
 // class School {

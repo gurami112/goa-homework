@@ -17,4 +17,4 @@ console.log("String: ", user.age);
 console.log("Boolean: ", user.isStudent);
 console.log("Array: ", user.Squad);
 console.log("Function: ", user.greet);
-console.log("Object: ", user.Family);        
+console.log("Object: ", user.Family);
